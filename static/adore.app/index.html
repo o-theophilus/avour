@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+		/>
+		<meta name="theme-color" content="#000000" />
+		<link rel="icon" href="./media/favicon.png" />
+
+		<link rel="stylesheet" href="index.css" />
+		<title>Eleanor</title>
+	</head>
+
+	<body>
+		<div class="app">
+			<div id="scene">
+				<iframe src="Shop3D.html" frameborder="0"></iframe>
+			</div>
+
+			<div id="splash_screen">
+				<div id="loading">
+					<div id="loading_bar"></div>
+				</div>
+				<br />
+				<h3>Loading <span id="loading_text">0</span>%</h3>
+			</div>
+
+			<div id="ui">
+				<div id="fullscreen" class="btn">
+					<img
+						id="fullscreen_open"
+						src="media/fullscreen_open.svg"
+						alt="fullscreen_open"
+					/>
+					<img
+						id="fullscreen_close"
+						src="media/fullscreen_close.svg"
+						alt="fullscreen_close"
+					/>
+				</div>
+
+				<div id="profile_close" class="btn">
+					<img src="media/profile_close.svg" alt="profile_close" />
+				</div>
+
+				<div id="panel_static">
+					<div id="panel_static_name">Product full name</div>
+					<div id="panel_static_price">Price</div>
+					<button id="details" class="btn">More</button>
+					<button class="btn">Add Cart</button>
+				</div>
+
+				<div id="panel_float">
+					<div id="panel_float_name">Product full name</div>
+					<div id="panel_float_price">Price</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
