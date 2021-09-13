@@ -1,7 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import UI from './_ui.svelte';
+	import Scene from './_scene.svelte';
+	import PanelStatic from './_comp/panel.static.svelte';
+	import PanelFloat from './_comp/panel.float.svelte';
+</script>
 
-<div id="scene">
-	<iframe src="adore.app/main.html" frameborder="0" />
-</div>
-
+<Scene />
+<UI />
+<PanelStatic />
+<PanelFloat />

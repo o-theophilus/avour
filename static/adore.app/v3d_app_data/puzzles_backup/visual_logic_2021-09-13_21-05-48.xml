@@ -135,18 +135,17 @@
             </shadow>
           </value>
           <next>
-            <block type="setCSSRuleStyle" id="s7)y]N0s[mR^)]o-/M($">
-              <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
-              <field name="PROPERTY">display</field>
+            <block type="setHTMLElemAttribute" id="[69^7g%tYnVs,+z{2btg" disabled="true">
+              <field name="ATTRIBUTE">className</field>
               <field name="PARENT">TRUE</field>
               <value name="VALUE">
-                <block type="text" id="^pTVqo`H=K!3gRf07yt}">
-                  <field name="TEXT">block</field>
+                <block type="text" id="{9aFMHqTctpry!2W|7v0">
+                  <field name="TEXT">done</field>
                 </block>
               </value>
               <value name="ID">
-                <shadow type="text" id="|rOjU;sIB48f@Z@9BFYP">
-                  <field name="TEXT">#loading_btn</field>
+                <shadow type="text" id="d9ZvIk2]|q{;=0CDYh42">
+                  <field name="TEXT">splash_screen</field>
                 </shadow>
               </value>
             </block>

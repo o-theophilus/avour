@@ -141,7 +141,7 @@
               <field name="PARENT">TRUE</field>
               <value name="VALUE">
                 <block type="text" id="^pTVqo`H=K!3gRf07yt}">
-                  <field name="TEXT">block</field>
+                  <field name="TEXT">none</field>
                 </block>
               </value>
               <value name="ID">
@@ -149,6 +149,22 @@
                   <field name="TEXT">#loading_btn</field>
                 </shadow>
               </value>
+              <next>
+                <block type="setHTMLElemAttribute" id="[69^7g%tYnVs,+z{2btg" disabled="true">
+                  <field name="ATTRIBUTE">className</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <block type="text" id="{9aFMHqTctpry!2W|7v0">
+                      <field name="TEXT">done</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="d9ZvIk2]|q{;=0CDYh42">
+                      <field name="TEXT">splash_screen</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
             </block>
           </next>
         </block>

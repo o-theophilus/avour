@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="true" scrollx="405.86555679413954" scrolly="613.41650390625" scale="1">
+  <tab name="init" type="InitTab" active="true" scrollx="403.3449987227964" scrolly="665.7674986735174" scale="0.8227024747918819">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="z%2k,qwW-nu(~06{3s]J" x="-450" y="-470">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -112,7 +112,7 @@
               </value>
               <value name="ID">
                 <shadow type="text" id="~h0v2-8+_lNmK*OkuAUs">
-                  <field name="TEXT">#loading_fill</field>
+                  <field name="TEXT">#loading_bar</field>
                 </shadow>
               </value>
             </block>
@@ -126,27 +126,26 @@
           <field name="PARENT">TRUE</field>
           <value name="VALUE">
             <block type="text" id="kSB*t-BcQly;SQtg_z=p">
-              <field name="TEXT">none</field>
+              <field name="TEXT">unset</field>
             </block>
           </value>
           <value name="ID">
             <shadow type="text" id="wel;.CNGq(;[Wk(9D55@">
-              <field name="TEXT">#loading</field>
+              <field name="TEXT">#loading_done</field>
             </shadow>
           </value>
           <next>
-            <block type="setCSSRuleStyle" id="s7)y]N0s[mR^)]o-/M($">
-              <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
-              <field name="PROPERTY">display</field>
+            <block type="setHTMLElemAttribute" id="[69^7g%tYnVs,+z{2btg">
+              <field name="ATTRIBUTE">className</field>
               <field name="PARENT">TRUE</field>
               <value name="VALUE">
-                <block type="text" id="^pTVqo`H=K!3gRf07yt}">
-                  <field name="TEXT">block</field>
+                <block type="text" id="{9aFMHqTctpry!2W|7v0">
+                  <field name="TEXT">unset</field>
                 </block>
               </value>
               <value name="ID">
-                <shadow type="text" id="|rOjU;sIB48f@Z@9BFYP">
-                  <field name="TEXT">#loading_btn</field>
+                <shadow type="text" id="d9ZvIk2]|q{;=0CDYh42">
+                  <field name="TEXT">splash_screen</field>
                 </shadow>
               </value>
             </block>
