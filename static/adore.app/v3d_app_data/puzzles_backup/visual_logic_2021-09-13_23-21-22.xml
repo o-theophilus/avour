@@ -1823,7 +1823,7 @@
                               <field name="PARENT">TRUE</field>
                               <value name="VALUE">
                                 <block type="text" id="|:Pm86Vwcoqd9xz36X++">
-                                  <field name="TEXT">inline-block</field>
+                                  <field name="TEXT">unset</field>
                                 </block>
                               </value>
                               <value name="ID">

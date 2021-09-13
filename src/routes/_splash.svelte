@@ -43,15 +43,17 @@
 		display: flex;
 	}
 
-	.title{
-		/* text-align: center; */
+	.title {
 		color: var(--fcolor2);
 		font-size: 3em;
-
 	}
 
 	#loading {
 		width: 50%;
+	}
+
+	:global(#loading) {
+		display: block;
 	}
 
 	#loading_bar {
@@ -71,9 +73,16 @@
 
 		border-radius: var(--bRadius2);
 	}
+	:global(#loading_fill) {
+		width: 0;
+	}
 
 	h3 {
 		text-align: center;
 		color: var(--fcolor2);
+	}
+
+	:global(#loading_btn) {
+		display: none;
 	}
 </style>

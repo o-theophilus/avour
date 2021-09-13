@@ -35,3 +35,8 @@ body {
 
 /* removes tap blinking on ios devices */
 * { -webkit-tap-highlight-color:rgba(0,0,0,0); }
+
+[href="https://www.soft8soft.com/verge3d-trial/"]
+{
+	display: none;
+}

@@ -2,10 +2,11 @@
 	import '$lib/index.css';
 
 	import Splash from './_splash.svelte';
+	import Header from './_comp/header.svelte';
 </script>
 
 <main>
-	<header>Adore</header>
+	<Header />
 	<slot />
 	<Splash />
 </main>
@@ -14,10 +15,5 @@
 	main {
 		position: relative;
 		height: 100vh;
-	}
-
-	header {
-		background-color: white;
-		height: 70px;
 	}
 </style>

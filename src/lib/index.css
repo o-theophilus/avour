@@ -8,7 +8,7 @@
 	--color1: black;
 	--color2: white;
 	--color3: #94d915;
-	
+
 	--fcolor1: var(--color1);
 	--fcolor2: var(--color2);
 }
@@ -25,16 +25,15 @@
 	padding: var(--pad);
 	border-radius: var(--bRadius1);
 	border: 2px solid var(--color2);
-	
+
 	color: var(--fcolor2);
 	background-color: transparent;
-	
+
 	cursor: pointer;
 }
-.btn:hover{
+.btn:hover {
 	border-color: transparent;
 	background-color: var(--color3);
-
 }
 
 /********************** v3d **********************/
@@ -42,18 +41,5 @@
 	display: none;
 }
 #panel_float {
-	display: none;
-}
-
-/********************** v3d.splash **********************/
-#loading {
-	display: block;
-}
-
-#loading_fill {
-	width: 0;
-}
-
-#loading_btn {
 	display: none;
 }

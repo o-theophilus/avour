@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="405.8655567941396" scrolly="613.41650390625" scale="1">
+  <tab name="init" type="InitTab" active="true" scrollx="405.86555679413954" scrolly="613.41650390625" scale="1">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="z%2k,qwW-nu(~06{3s]J" x="-450" y="-470">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -1467,7 +1467,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="Interaction" type="SecondaryTab" active="false" scrollx="-179.5025027801512" scrolly="7.7744797735243765" scale="0.7462153966366275">
+  <tab name="Interaction" type="SecondaryTab" active="false" scrollx="-179.5025027801512" scrolly="7.77447977352449" scale="0.7462153966366275">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
     </variables>
@@ -1673,7 +1673,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="html" type="SecondaryTab" active="true" scrollx="-219.27733286804323" scrolly="-258.17982315828885" scale="0.9070294784580497">
+  <tab name="html" type="SecondaryTab" active="false" scrollx="-381.6295658960804" scrolly="-154.73644344950208" scale="0.7462153966366273">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="/0KbT5OT{?{H70#z9!yY" type="">pickedObj</variable>
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
@@ -1823,7 +1823,7 @@
                               <field name="PARENT">TRUE</field>
                               <value name="VALUE">
                                 <block type="text" id="|:Pm86Vwcoqd9xz36X++">
-                                  <field name="TEXT">inline-block</field>
+                                  <field name="TEXT">unset</field>
                                 </block>
                               </value>
                               <value name="ID">
@@ -1832,20 +1832,37 @@
                                 </shadow>
                               </value>
                               <next>
-                                <block type="setCSSRuleStyle" id="x0o%j;f;0]]It@wX3U:$">
+                                <block type="setCSSRuleStyle" id="N=P{B;6d$OI8bD]8TM^_" disabled="true">
                                   <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
-                                  <field name="PROPERTY">height</field>
+                                  <field name="PROPERTY">opacity</field>
                                   <field name="PARENT">TRUE</field>
                                   <value name="VALUE">
-                                    <block type="text" id="@/o$_Qr[Qo`BTk=;0!Ng">
-                                      <field name="TEXT">50%</field>
+                                    <block type="text" id="eM!9Ah0A^1uj,|vSKX}K">
+                                      <field name="TEXT">0</field>
                                     </block>
                                   </value>
                                   <value name="ID">
-                                    <shadow type="text" id="%EumPf`og`f/75zi[8u@">
-                                      <field name="TEXT">#scene</field>
+                                    <shadow type="text" id="dl^=PQD49]|FPDhxew`-">
+                                      <field name="TEXT">#panel_static</field>
                                     </shadow>
                                   </value>
+                                  <next>
+                                    <block type="setCSSRuleStyle" id="x0o%j;f;0]]It@wX3U:$">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                                      <field name="PROPERTY">height</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="VALUE">
+                                        <block type="text" id="@/o$_Qr[Qo`BTk=;0!Ng">
+                                          <field name="TEXT">50%</field>
+                                        </block>
+                                      </value>
+                                      <value name="ID">
+                                        <shadow type="text" id="%EumPf`og`f/75zi[8u@">
+                                          <field name="TEXT">#scene</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
                                 </block>
                               </next>
                             </block>
@@ -2130,7 +2147,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="start" type="SecondaryTab" active="false" scrollx="-466.5841369628906" scrolly="-330.088592529297" scale="1">
+  <tab name="start" type="SecondaryTab" active="false" scrollx="-466.5841369628906" scrolly="-330.0885925292969" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
       <variable id="AgC)d+i`1hLlIwZp+Bx#" type="">video</variable>
