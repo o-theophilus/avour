@@ -2342,7 +2342,7 @@
                           </value>
                           <value name="VOLUME">
                             <shadow type="math_number" id="XHjrhBSv;FQ!vObRvpJ?">
-                              <field name="NUM">0.1</field>
+                              <field name="NUM">0</field>
                             </shadow>
                           </value>
                           <next>
