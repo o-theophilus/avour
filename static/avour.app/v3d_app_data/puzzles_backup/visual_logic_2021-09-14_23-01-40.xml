@@ -216,7 +216,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="-717.276617963983" scrolly="1161.5913036169468" scale="0.556837418177559">
+  <tab name="main" type="MainTab" active="true" scrollx="-1370.0091552734375" scrolly="920.508544921875" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="?al|5CQG?,Q~m:iB/oqu" type="">x</variable>
       <variable id="c{min-xkLN1re?jdfDS]" type="">picked_object</variable>
@@ -671,18 +671,6 @@
                                       <mutation name="click"/>
                                     </block>
                                   </statement>
-                                  <next>
-                                    <block type="procedures_callnoreturn" id="tPl5xXhHXaGD4wX(@o1d">
-                                      <mutation name="log">
-                                        <arg name="x"/>
-                                      </mutation>
-                                      <value name="ARG0">
-                                        <block type="variables_get" id="cxB^q*[!)fTc)(E04!Dr">
-                                          <field name="VAR" id="{[k]j]c%L:]!OdOugU=t">action.01</field>
-                                        </block>
-                                      </value>
-                                    </block>
-                                  </next>
                                 </block>
                               </next>
                             </block>
@@ -1526,6 +1514,18 @@
                   </statement>
                 </block>
               </statement>
+              <next>
+                <block type="procedures_callnoreturn" id="tPl5xXhHXaGD4wX(@o1d">
+                  <mutation name="log">
+                    <arg name="x"/>
+                  </mutation>
+                  <value name="ARG0">
+                    <block type="variables_get" id="cxB^q*[!)fTc)(E04!Dr">
+                      <field name="VAR" id="{[k]j]c%L:]!OdOugU=t">action.01</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
             </block>
           </next>
         </block>
@@ -1543,7 +1543,7 @@
           <field name="PARENT">TRUE</field>
           <value name="VALUE">
             <block type="text_join" id="?YusjY7q3=GC31q;tOyt">
-              <mutation items="7"/>
+              <mutation items="3"/>
               <value name="ADD0">
                 <block type="getHTMLElemAttribute" id="L{LVm5H*dU=z%6ta`xq^">
                   <field name="ATTRIBUTE">innerHTML</field>
@@ -1563,26 +1563,6 @@
               <value name="ADD2">
                 <block type="variables_get" id="B^;*Oq8X%Y_(@Q{WcOe(">
                   <field name="VAR" id="?al|5CQG?,Q~m:iB/oqu">x</field>
-                </block>
-              </value>
-              <value name="ADD3">
-                <block type="text" id="6;@W4!|,By~~Pfm$]]{t">
-                  <field name="TEXT">-</field>
-                </block>
-              </value>
-              <value name="ADD4">
-                <block type="variables_get" id="bf*`b!DsPNn`9oGC/uJb">
-                  <field name="VAR" id="Bdtg=#^:K,)M]H|o7p/R">dura</field>
-                </block>
-              </value>
-              <value name="ADD5">
-                <block type="text" id="Jq9UP*r*;~4KH[RiqXtQ">
-                  <field name="TEXT">-</field>
-                </block>
-              </value>
-              <value name="ADD6">
-                <block type="variables_get" id="*M{HALY6;{sIRZqijjQ*">
-                  <field name="VAR" id="x$OQ[sM7IQb^,cam7J3%">dist</field>
                 </block>
               </value>
             </block>

@@ -216,7 +216,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="-717.276617963983" scrolly="1161.5913036169468" scale="0.556837418177559">
+  <tab name="main" type="MainTab" active="true" scrollx="-1374.331374666398" scrolly="795.5615108492367" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="?al|5CQG?,Q~m:iB/oqu" type="">x</variable>
       <variable id="c{min-xkLN1re?jdfDS]" type="">picked_object</variable>
@@ -671,18 +671,6 @@
                                       <mutation name="click"/>
                                     </block>
                                   </statement>
-                                  <next>
-                                    <block type="procedures_callnoreturn" id="tPl5xXhHXaGD4wX(@o1d">
-                                      <mutation name="log">
-                                        <arg name="x"/>
-                                      </mutation>
-                                      <value name="ARG0">
-                                        <block type="variables_get" id="cxB^q*[!)fTc)(E04!Dr">
-                                          <field name="VAR" id="{[k]j]c%L:]!OdOugU=t">action.01</field>
-                                        </block>
-                                      </value>
-                                    </block>
-                                  </next>
                                 </block>
                               </next>
                             </block>
@@ -1526,6 +1514,18 @@
                   </statement>
                 </block>
               </statement>
+              <next>
+                <block type="procedures_callnoreturn" id="tPl5xXhHXaGD4wX(@o1d">
+                  <mutation name="log">
+                    <arg name="x"/>
+                  </mutation>
+                  <value name="ARG0">
+                    <block type="variables_get" id="cxB^q*[!)fTc)(E04!Dr">
+                      <field name="VAR" id="{[k]j]c%L:]!OdOugU=t">action.01</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
             </block>
           </next>
         </block>

@@ -216,7 +216,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="-717.276617963983" scrolly="1161.5913036169468" scale="0.556837418177559">
+  <tab name="main" type="MainTab" active="true" scrollx="-1369.4187730619442" scrolly="2012.6566987717397" scale="0.9070294784580493">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="?al|5CQG?,Q~m:iB/oqu" type="">x</variable>
       <variable id="c{min-xkLN1re?jdfDS]" type="">picked_object</variable>
