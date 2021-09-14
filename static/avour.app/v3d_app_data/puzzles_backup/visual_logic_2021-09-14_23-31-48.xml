@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="424.6031987284049" scrolly="397.8580789524288" scale="0.8227024747918819">
+  <tab name="init" type="InitTab" active="false" scrollx="288.2193249731331" scrolly="383.6521544305306" scale="0.6768393620286867">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="z%2k,qwW-nu(~06{3s]J" x="-450" y="-470">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -216,7 +216,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="false" scrollx="-661.1061004347866" scrolly="1043.1180016129747" scale="0.45811152199139993">
+  <tab name="main" type="MainTab" active="true" scrollx="-856.5931627061918" scrolly="1203.2645828413606" scale="0.5568374181775592">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="?al|5CQG?,Q~m:iB/oqu" type="">x</variable>
       <variable id="c{min-xkLN1re?jdfDS]" type="">picked_object</variable>
@@ -1802,7 +1802,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="html" type="SecondaryTab" active="false" scrollx="176.20479760323326" scrolly="-228.39773701605736" scale="0.7462153966366271">
+  <tab name="html" type="SecondaryTab" active="false" scrollx="-225.5192034705176" scrolly="-723.975849785907" scale="0.9999999999999993">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="/0KbT5OT{?{H70#z9!yY" type="">pickedObj</variable>
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
@@ -2243,7 +2243,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="start" type="SecondaryTab" active="true" scrollx="-466.5841369628904" scrolly="-330.0885925292969" scale="1">
+  <tab name="start" type="SecondaryTab" active="false" scrollx="-466.58413696289085" scrolly="-330.088592529297" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
       <variable id="AgC)d+i`1hLlIwZp+Bx#" type="">video</variable>
@@ -2325,13 +2325,18 @@
                     </block>
                   </value>
                   <next>
-                    <block type="eventHTMLElem" id="isXO{B(E$WT59c20+Aa.">
-                      <field name="EVENT">click</field>
-                      <field name="PARENT">TRUE</field>
-                      <value name="ID">
-                        <shadow type="text" id="e#~i%3)%C*`n,Qa6dqMT">
-                          <field name="TEXT">loading_bar</field>
+                    <block type="whenClicked" id="^^1fp~5rt,dUpbRVVoi0" disabled="true">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
                         </shadow>
+                        <block type="allObjectList" id="@MDIL#rT@2Tp`2`UOTR]"/>
                       </value>
                       <statement name="DO">
                         <block type="playSound" id="`3DZ|0]0A3#;=KsvUxN-">

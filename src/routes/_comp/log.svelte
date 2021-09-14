@@ -1,21 +1,31 @@
-<div id="log">
-	yesss
-	<br />
-	no
-</div>
+<script>
+	$: log = false;
+</script>
+
+{#if log}
+	<div id="log">Log</div>
+{/if}
+<input bind:value={log} type="checkbox" />
 
 <style>
 	#log {
+		pointer-events: none;
+
 		background-color: rgba(255, 255, 255, 0.345);
 
 		position: absolute;
 		bottom: var(--pad);
 		left: var(--pad);
+		right: var(--pad);
 
 		padding: var(--pad);
 
-		pointer-events: none;
+		font-size: 0.7rem;
+	}
 
-		font-size: 0.8rem;
+	input {
+		position: absolute;
+		top: 80px;
+		right: var(--pad);
 	}
 </style>
