@@ -1,5 +1,12 @@
+@font-face {
+	font-family: font1;
+	src: url('the.blacklist.ttf');
+}
+
+
 :root {
 	--pad: 20px;
+	--pad2: 50px;
 	--bRadius1: 10px;
 	--bRadius2: 3px;
 	--btnSize: 50px;
@@ -11,6 +18,11 @@
 
 	--fcolor1: var(--color1);
 	--fcolor2: var(--color2);
+
+	--altFont: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	--font1: font1, var(--altFont);
+
+	--animTime1: 200ms;
 }
 
 * {

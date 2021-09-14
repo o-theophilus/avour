@@ -1,13 +1,24 @@
-<header>
-	<div class="title">Adore</div>
+<script>
+	import SVG from '$lib/svg.svelte';
+</script>
 
-	<div id="profile_close" class="btn">
-		<img src="adore.app/media/profile_close.svg" alt="profile_close" />
+<header>
+	<div class="logo">
+		<img src="logo.png" alt="Avour" />
+		<div>Avour</div>
 	</div>
 
-	<div id="fullscreen" class="btn">
-		<img id="fullscreen_open" src="adore.app/media/fullscreen_open.svg" alt="fullscreen_open" />
-		<img id="fullscreen_close" src="adore.app/media/fullscreen_close.svg" alt="fullscreen_close" />
+	<div id="profile_close" class="fullscreen">
+		<SVG type="profile_close" size="40" />
+	</div>
+
+	<div id="fullscreen">
+		<div id="fullscreen_open" class="fullscreen">
+			<SVG type="fullscreen_open" size="40" />
+		</div>
+		<div id="fullscreen_close" class="fullscreen">
+			<SVG type="fullscreen_close" size="40" />
+		</div>
 	</div>
 </header>
 
@@ -15,39 +26,42 @@
 	header {
 		background-color: var(--color1);
 		height: 70px;
-		padding: 0 var(--pad);
+		padding: 0 var(--pad2);
 
 		display: flex;
-		/* justify-content: center; */
+		gap: 20px;
 		align-items: center;
 	}
-	.title {
-		color: var(--fcolor2);
-		font-size: 2em;
+	.logo {
+		display: flex;
+		align-items: center;
+		gap: 10px;
 
 		margin-right: auto;
+
+		color: var(--fcolor2);
+		font-size: 2rem;
+		font-family: var(--font1);
+	}
+	img {
+		height: 50px;
 	}
 
-	/* .btn {
+	.fullscreen {
 		cursor: pointer;
-		pointer-events: auto;
-		display: inline-block;
-	} */
-
-	#fullscreen {
-		/* position: absolute; */
-		/* right: 0; */
-		/* padding: var(--pad); */
+		fill: var(--color2);
 	}
 
-	#fullscreen_close {
+	:global(#fullscreen) {
+		display: unset;
+	}
+
+	:global(#fullscreen_open) {
+		display: unset;
+	}
+
+	:global(#fullscreen_close) {
 		display: none;
-	}
-
-	#profile_close {
-		/* position: absolute; */
-		/* right: 0; */
-		/* padding: var(--pad); */
 	}
 
 	:global(#profile_close) {

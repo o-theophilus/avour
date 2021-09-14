@@ -14,7 +14,7 @@
 		left: var(--pad);
 
 		padding: var(--pad);
-		border-radius: var(--bRadius);
+		border-radius: var(--bRadius1);
 
 		transition: opacity 0.3s ease-in-out;
 

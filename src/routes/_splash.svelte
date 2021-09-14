@@ -3,30 +3,29 @@
 </script>
 
 <div id="splash_screen" class:active>
-	<div class="title">Adore</div>
+	<div class="logo">
+		<img src="logo.png" alt="Avour" />
+		<div>Avour</div>
+	</div>
 	<br />
 	<div id="loading">
-		<div id="loading_bar">
+		<div
+			id="loading_bar"
+			on:click={() => {
+				active = false;
+			}}
+		>
 			<div id="loading_fill" />
+			<div id="loading_text">Loading</div>
 		</div>
-		<br />
-
-		<h3>Loading <span id="loading_text">0</span>%</h3>
-	</div>
-
-	<div
-		class="btn"
-		id="loading_btn"
-		on:click={() => {
-			active = false;
-		}}
-	>
-		Enter Shop
 	</div>
 </div>
 
 <style>
 	#splash_screen {
+		--buttonHeight: 50px;
+		--buttonWidth: 180px;
+
 		display: none;
 
 		position: absolute;
@@ -43,13 +42,17 @@
 		display: flex;
 	}
 
-	.title {
-		color: var(--fcolor2);
-		font-size: 3em;
-	}
+	.logo {
+		display: flex;
+		align-items: center;
+		gap: 10px;
 
-	#loading {
-		width: 50%;
+		color: var(--fcolor2);
+		font-size: 3rem;
+		font-family: var(--font1);
+	}
+	img {
+		height: 80px;
 	}
 
 	:global(#loading) {
@@ -57,29 +60,45 @@
 	}
 
 	#loading_bar {
+		position: relative;
+
 		display: flex;
 		justify-content: center;
+		align-items: center;
 
-		width: 100%;
+		width: var(--buttonWidth);
+		height: var(--buttonHeight);
+
 		padding: 2px;
-
 		border: 2px solid var(--color2);
+		border-radius: var(--bRadius1);
 
-		border-radius: var(--bRadius2);
+
+		transition: all var(--animTime1) ease-in-out;
 	}
+
+	:global(#loading_bar) {
+		cursor: unset;
+		pointer-events: none;
+	}
+
 	#loading_fill {
-		height: 10px;
+		position: absolute;
+		left: 0;
+
+		height: 100%;
 		background-color: var(--color3);
 
-		border-radius: var(--bRadius2);
+		border-radius: var(--bRadius1);
 	}
 	:global(#loading_fill) {
 		width: 0;
 	}
 
-	h3 {
-		text-align: center;
+	#loading_text {
+		position: absolute;
 		color: var(--fcolor2);
+		/* mix-blend-mode: unset; */
 	}
 
 	:global(#loading_btn) {

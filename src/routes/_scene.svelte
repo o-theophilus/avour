@@ -1,5 +1,5 @@
 <div id="scene">
-	<iframe src="adore.app/main.html" frameborder="0" title="app" />
+	<iframe src="avour.app/main.html" frameborder="0" title="app" />
 </div>
 
 <style>
