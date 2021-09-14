@@ -6,7 +6,7 @@
 
 <style>
 	#log {
-		background-color: white;
+		background-color: rgba(255, 255, 255, 0.345);
 
 		position: absolute;
 		bottom: var(--pad);
@@ -14,6 +14,8 @@
 
 		padding: var(--pad);
 
-		pointer-events: auto;
+		pointer-events: none;
+
+		font-size: 0.8rem;
 	}
 </style>
