@@ -2334,27 +2334,13 @@
                         </shadow>
                       </value>
                       <statement name="DO">
-                        <block type="volume" id="J4CB)soU[j:5`n`l9ej9">
+                        <block type="playSound" id="`3DZ|0]0A3#;=KsvUxN-">
+                          <field name="LOOP">TRUE</field>
                           <value name="VALUE">
-                            <block type="variables_get" id="eXU?A((C#rKwIl-gKaeU">
+                            <block type="variables_get" id="7mHYDn:G-]4rp{?3b@7q">
                               <field name="VAR" id="AgC)d+i`1hLlIwZp+Bx#">video</field>
                             </block>
                           </value>
-                          <value name="VOLUME">
-                            <shadow type="math_number" id="XHjrhBSv;FQ!vObRvpJ?">
-                              <field name="NUM">0.1</field>
-                            </shadow>
-                          </value>
-                          <next>
-                            <block type="playSound" id="`3DZ|0]0A3#;=KsvUxN-">
-                              <field name="LOOP">TRUE</field>
-                              <value name="VALUE">
-                                <block type="variables_get" id="7mHYDn:G-]4rp{?3b@7q">
-                                  <field name="VAR" id="AgC)d+i`1hLlIwZp+Bx#">video</field>
-                                </block>
-                              </value>
-                            </block>
-                          </next>
                         </block>
                       </statement>
                     </block>
