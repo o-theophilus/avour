@@ -340,7 +340,7 @@
       </next>
     </block>
   </tab>
-  <tab name="click" type="SecondaryTab" active="false" scrollx="-312.26226806640625" scrolly="984.0493774414062" scale="0.3">
+  <tab name="click" type="SecondaryTab" active="true" scrollx="-1316.6832068073372" scrolly="1827.657610158999" scale="0.8775782159765172">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="c{min-xkLN1re?jdfDS]" type="">picked_object</variable>
       <variable id="D{)kpOnIAquEeNn:6/D2" type="">action.02</variable>
@@ -1733,7 +1733,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="interaction" type="SecondaryTab" active="true" scrollx="-212.68480682373047" scrolly="-324.4875259399414" scale="0.9070294784580493">
+  <tab name="interaction" type="SecondaryTab" active="false" scrollx="-299.06343122603994" scrolly="-164.99463573731373" scale="0.9999999999999994">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
     </variables>
@@ -1934,33 +1934,6 @@
               <field name="FIELDNAME">sheakers</field>
             </shadow>
             <block type="pickedObject" id=":B.[8yf~}n)N)0nGHN}{"/>
-          </value>
-        </block>
-      </statement>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="^;zhXk^^0#{#?OJdwzCE" disabled="true" x="450" y="1030">
-      <field name="X_RAY">FALSE</field>
-      <field name="LEFT_BUTTON">TRUE</field>
-      <field name="MIDDLE_BUTTON">TRUE</field>
-      <field name="RIGHT_BUTTON">TRUE</field>
-      <value name="VALUE">
-        <shadow type="objectList" id="NsNH9+OD{,bM=!d*xhpZ">
-          <field name="FIELDNAME">sheakers</field>
-        </shadow>
-        <block type="objectList" id="DHceJ!:=yffQx{;7%|8q">
-          <field name="FIELDNAME">Coffee Table</field>
-        </block>
-      </value>
-      <statement name="DO_MOVE">
-        <block type="dragRotate" id="E1P22)IJ|M+-J5_RX)K3">
-          <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="false"></mutation>
-          <field name="AXIS">Z</field>
-          <field name="SPACE_TYPE">PARENT</field>
-          <value name="TARGETOBJ">
-            <shadow type="objectList">
-              <field name="FIELDNAME">sheakers</field>
-            </shadow>
-            <block type="pickedObject" id="!XSj_A)UPG5`{snvuqHV"/>
           </value>
         </block>
       </statement>
