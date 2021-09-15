@@ -216,8 +216,9 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="-1033.1130849590818" scrolly="1904.4731974365604" scale="0.7462153966366271">
+  <tab name="main" type="MainTab" active="false" scrollx="-661.1061004347866" scrolly="1043.1180016129747" scale="0.45811152199139993">
     <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="?al|5CQG?,Q~m:iB/oqu" type="">x</variable>
       <variable id="c{min-xkLN1re?jdfDS]" type="">picked_object</variable>
       <variable id="D{)kpOnIAquEeNn:6/D2" type="">action.02</variable>
       <variable id="O!OS`aVm83MA^HZCET#i" type="">x1</variable>
@@ -229,8 +230,8 @@
       <variable id="x$OQ[sM7IQb^,cam7J3%" type="">dist</variable>
       <variable id="Bdtg=#^:K,)M]H|o7p/R" type="">dura</variable>
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
-      <variable id="~%%K1WGLK]gu!HJ{|U9!" type="">lookat</variable>
       <variable id="TYs4NtJX;(woQ=@hNlv#" type="">screen.active</variable>
+      <variable id="~%%K1WGLK]gu!HJ{|U9!" type="">lookat</variable>
       <variable id="AgC)d+i`1hLlIwZp+Bx#" type="">video</variable>
     </variables>
     <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="4*AoGp,=2aK]5+X}=jC;" x="1130" y="-2770">
@@ -295,7 +296,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="IwWxOG8k/)/@QqWLwhff" x="1630" y="-2530">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="IwWxOG8k/)/@QqWLwhff" x="1610" y="-2590">
       <field name="EVENT">mousedown</field>
       <field name="PARENT">FALSE</field>
       <value name="ID">
@@ -520,21 +521,11 @@
                     </block>
                   </value>
                   <next>
-                    <block type="variables_set" id="?#NH)G_Bz6@y:B|n@$-j">
-                      <field name="VAR" id="6)RM2aY*~)!=Iqd)u=pQ">x2</field>
+                    <block type="variables_set" id="kt}]q5G4M`iue7H0qP=P">
+                      <field name="VAR" id="92RzH^::QLJ+VWx[PwT)">time</field>
                       <value name="VALUE">
-                        <block type="variables_get" id="c:dfz*zkuMOqJaXAGre!">
-                          <field name="VAR" id="O!OS`aVm83MA^HZCET#i">x1</field>
-                        </block>
+                        <block type="elapsedTotal" id="/)0}|*]Yc.:{)@JVhw4B"/>
                       </value>
-                      <next>
-                        <block type="variables_set" id="kt}]q5G4M`iue7H0qP=P">
-                          <field name="VAR" id="92RzH^::QLJ+VWx[PwT)">time</field>
-                          <value name="VALUE">
-                            <block type="elapsedTotal" id="/)0}|*]Yc.:{)@JVhw4B"/>
-                          </value>
-                        </block>
-                      </next>
                     </block>
                   </next>
                 </block>
@@ -682,7 +673,14 @@
                                   </statement>
                                   <next>
                                     <block type="procedures_callnoreturn" id="tPl5xXhHXaGD4wX(@o1d">
-                                      <mutation name="log"/>
+                                      <mutation name="log">
+                                        <arg name="x"/>
+                                      </mutation>
+                                      <value name="ARG0">
+                                        <block type="variables_get" id="cxB^q*[!)fTc)(E04!Dr">
+                                          <field name="VAR" id="{[k]j]c%L:]!OdOugU=t">action.01</field>
+                                        </block>
+                                      </value>
                                     </block>
                                   </next>
                                 </block>
@@ -853,7 +851,10 @@
         </block>
       </next>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="jtz)Z[FOfJc:yw66j*+v" x="2290" y="-1870">
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="jtz)Z[FOfJc:yw66j*+v" x="2270" y="-1910">
+      <mutation>
+        <arg name="x" varid="?al|5CQG?,Q~m:iB/oqu"/>
+      </mutation>
       <field name="NAME">log</field>
       <comment pinned="false" h="80" w="160">Describe this function...</comment>
       <statement name="STACK">
@@ -862,7 +863,7 @@
           <field name="PARENT">TRUE</field>
           <value name="VALUE">
             <block type="text_join" id="?YusjY7q3=GC31q;tOyt">
-              <mutation items="8"/>
+              <mutation items="7"/>
               <value name="ADD0">
                 <block type="getHTMLElemAttribute" id="L{LVm5H*dU=z%6ta`xq^">
                   <field name="ATTRIBUTE">innerHTML</field>
@@ -880,42 +881,28 @@
                 </block>
               </value>
               <value name="ADD2">
-                <block type="toFixedPoint" id="77:xf5WK=[(?0A9b=A*h">
-                  <value name="VALUE">
-                    <block type="variables_get" id="*M{HALY6;{sIRZqijjQ*">
-                      <field name="VAR" id="x$OQ[sM7IQb^,cam7J3%">dist</field>
-                    </block>
-                  </value>
-                  <value name="PRECISION">
-                    <shadow type="math_number" id="I3{xf-%9fX+@)58.:uQK">
-                      <field name="NUM">3</field>
-                    </shadow>
-                  </value>
+                <block type="variables_get" id="B^;*Oq8X%Y_(@Q{WcOe(">
+                  <field name="VAR" id="?al|5CQG?,Q~m:iB/oqu">x</field>
                 </block>
               </value>
               <value name="ADD3">
-                <block type="text" id="Jq9UP*r*;~4KH[RiqXtQ">
-                  <field name="TEXT"> - (</field>
+                <block type="text" id="6;@W4!|,By~~Pfm$]]{t">
+                  <field name="TEXT">-</field>
                 </block>
               </value>
               <value name="ADD4">
-                <block type="variables_get" id="B^;*Oq8X%Y_(@Q{WcOe(">
-                  <field name="VAR" id="O!OS`aVm83MA^HZCET#i">x1</field>
+                <block type="variables_get" id="bf*`b!DsPNn`9oGC/uJb">
+                  <field name="VAR" id="Bdtg=#^:K,)M]H|o7p/R">dura</field>
                 </block>
               </value>
               <value name="ADD5">
-                <block type="text" id="RJ4)(-a_Qv:~tOgHGYv!">
-                  <field name="TEXT">) - (</field>
+                <block type="text" id="Jq9UP*r*;~4KH[RiqXtQ">
+                  <field name="TEXT">-</field>
                 </block>
               </value>
               <value name="ADD6">
-                <block type="variables_get" id="bf*`b!DsPNn`9oGC/uJb">
-                  <field name="VAR" id="6)RM2aY*~)!=Iqd)u=pQ">x2</field>
-                </block>
-              </value>
-              <value name="ADD7">
-                <block type="text" id=";d@YN[Y[aCkev4s{{/~2">
-                  <field name="TEXT">)</field>
+                <block type="variables_get" id="*M{HALY6;{sIRZqijjQ*">
+                  <field name="VAR" id="x$OQ[sM7IQb^,cam7J3%">dist</field>
                 </block>
               </value>
             </block>
@@ -928,7 +915,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="~PjH~:,.C`TUC.h8,s3b" x="1630" y="-1610">
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="~PjH~:,.C`TUC.h8,s3b" x="1470" y="-1730">
       <field name="NAME">click</field>
       <comment pinned="false" h="80" w="160">Describe this function...</comment>
       <statement name="STACK">
@@ -2256,7 +2243,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="start" type="SecondaryTab" active="false" scrollx="-405.4482002258301" scrolly="-272.4386291503906" scale="0.9070294784580498">
+  <tab name="start" type="SecondaryTab" active="true" scrollx="-466.5841369628904" scrolly="-330.0885925292969" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
       <variable id="AgC)d+i`1hLlIwZp+Bx#" type="">video</variable>

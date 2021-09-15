@@ -216,7 +216,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="-1033.1130849590818" scrolly="1904.4731974365604" scale="0.7462153966366271">
+  <tab name="main" type="MainTab" active="true" scrollx="-1042.315529294412" scrolly="1797.8137521399221" scale="0.6768393620286867">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="c{min-xkLN1re?jdfDS]" type="">picked_object</variable>
       <variable id="D{)kpOnIAquEeNn:6/D2" type="">action.02</variable>
@@ -853,7 +853,7 @@
         </block>
       </next>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="jtz)Z[FOfJc:yw66j*+v" x="2290" y="-1870">
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="jtz)Z[FOfJc:yw66j*+v" x="2270" y="-1930">
       <field name="NAME">log</field>
       <comment pinned="false" h="80" w="160">Describe this function...</comment>
       <statement name="STACK">

@@ -216,7 +216,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="-1033.1130849590818" scrolly="1904.4731974365604" scale="0.7462153966366271">
+  <tab name="main" type="MainTab" active="true" scrollx="-1303.315529294412" scrolly="1736.8137521399221" scale="0.6768393620286867">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="c{min-xkLN1re?jdfDS]" type="">picked_object</variable>
       <variable id="D{)kpOnIAquEeNn:6/D2" type="">action.02</variable>
@@ -295,7 +295,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="IwWxOG8k/)/@QqWLwhff" x="1630" y="-2530">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="IwWxOG8k/)/@QqWLwhff" x="1610" y="-2590">
       <field name="EVENT">mousedown</field>
       <field name="PARENT">FALSE</field>
       <value name="ID">
@@ -520,21 +520,11 @@
                     </block>
                   </value>
                   <next>
-                    <block type="variables_set" id="?#NH)G_Bz6@y:B|n@$-j">
-                      <field name="VAR" id="6)RM2aY*~)!=Iqd)u=pQ">x2</field>
+                    <block type="variables_set" id="kt}]q5G4M`iue7H0qP=P">
+                      <field name="VAR" id="92RzH^::QLJ+VWx[PwT)">time</field>
                       <value name="VALUE">
-                        <block type="variables_get" id="c:dfz*zkuMOqJaXAGre!">
-                          <field name="VAR" id="O!OS`aVm83MA^HZCET#i">x1</field>
-                        </block>
+                        <block type="elapsedTotal" id="/)0}|*]Yc.:{)@JVhw4B"/>
                       </value>
-                      <next>
-                        <block type="variables_set" id="kt}]q5G4M`iue7H0qP=P">
-                          <field name="VAR" id="92RzH^::QLJ+VWx[PwT)">time</field>
-                          <value name="VALUE">
-                            <block type="elapsedTotal" id="/)0}|*]Yc.:{)@JVhw4B"/>
-                          </value>
-                        </block>
-                      </next>
                     </block>
                   </next>
                 </block>
@@ -853,7 +843,7 @@
         </block>
       </next>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="jtz)Z[FOfJc:yw66j*+v" x="2290" y="-1870">
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="jtz)Z[FOfJc:yw66j*+v" x="2270" y="-1930">
       <field name="NAME">log</field>
       <comment pinned="false" h="80" w="160">Describe this function...</comment>
       <statement name="STACK">
@@ -880,17 +870,8 @@
                 </block>
               </value>
               <value name="ADD2">
-                <block type="toFixedPoint" id="77:xf5WK=[(?0A9b=A*h">
-                  <value name="VALUE">
-                    <block type="variables_get" id="*M{HALY6;{sIRZqijjQ*">
-                      <field name="VAR" id="x$OQ[sM7IQb^,cam7J3%">dist</field>
-                    </block>
-                  </value>
-                  <value name="PRECISION">
-                    <shadow type="math_number" id="I3{xf-%9fX+@)58.:uQK">
-                      <field name="NUM">3</field>
-                    </shadow>
-                  </value>
+                <block type="variables_get" id="*M{HALY6;{sIRZqijjQ*">
+                  <field name="VAR" id="x$OQ[sM7IQb^,cam7J3%">dist</field>
                 </block>
               </value>
               <value name="ADD3">
