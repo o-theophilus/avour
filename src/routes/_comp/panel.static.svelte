@@ -1,7 +1,7 @@
 <div id="panel_static">
 	<div id="panel_static_name">Product full name</div>
 	<div id="panel_static_price">Price</div>
-	<button id="details" class="btn">More</button>
+	<button id="details" class="btn" >More</button>
 	<button class="btn">Add Cart</button>
 </div>
 

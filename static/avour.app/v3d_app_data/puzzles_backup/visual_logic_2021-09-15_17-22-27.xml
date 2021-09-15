@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="347.64778145230315" scrolly="473.224451328294" scale="0.6139132535407591">
+  <tab name="init" type="InitTab" active="false" scrollx="347.64778145230315" scrolly="473.22445132829387" scale="0.6139132535407591">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="z%2k,qwW-nu(~06{3s]J" x="-450" y="-470">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -216,7 +216,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="false" scrollx="-532.4482002258301" scrolly="-266.4386291503906" scale="0.9070294784580498">
+  <tab name="main" type="MainTab" active="true" scrollx="-532.4482002258301" scrolly="-266.4386291503906" scale="0.9070294784580498">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
       <variable id="AgC)d+i`1hLlIwZp+Bx#" type="">video</variable>
@@ -340,7 +340,7 @@
       </next>
     </block>
   </tab>
-  <tab name="click" type="SecondaryTab" active="false" scrollx="-308.26226806640625" scrolly="821.0493774414062" scale="0.3">
+  <tab name="click" type="SecondaryTab" active="false" scrollx="-312.26226806640625" scrolly="984.0493774414062" scale="0.3">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="c{min-xkLN1re?jdfDS]" type="">picked_object</variable>
       <variable id="D{)kpOnIAquEeNn:6/D2" type="">action.02</variable>
@@ -1733,7 +1733,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="interaction" type="SecondaryTab" active="false" scrollx="-45.71260812238501" scrolly="-82.605817978387" scale="0.6139132535407589">
+  <tab name="interaction" type="SecondaryTab" active="false" scrollx="-45.71260812238506" scrolly="-82.60581797838677" scale="0.6139132535407589">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
     </variables>
@@ -1966,7 +1966,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="html" type="SecondaryTab" active="true" scrollx="-62.28859865693994" scrolly="-113.84202915716105" scale="0.9070294784580493">
+  <tab name="html" type="SecondaryTab" active="false" scrollx="176.20479760323326" scrolly="-228.39773701605736" scale="0.7462153966366271">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="/0KbT5OT{?{H70#z9!yY" type="">pickedObj</variable>
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>

@@ -1,16 +1,10 @@
-<div id="scene">
-	<iframe src="avour.app/main.html" frameborder="0" title="app" />
-</div>
+<iframe id="scene" src="avour.app/main.html" frameborder="0" title="app" />
 
 <style>
-	#scene {
-		height: calc(100vh - var(--headerHeight));
-	}
-
 	iframe {
 		width: 100%;
+	}
+	:global(#scene) {
 		height: 100%;
-
-		background-color: white;
 	}
 </style>

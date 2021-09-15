@@ -5,15 +5,15 @@
 	import Header from './_comp/header.svelte';
 </script>
 
+<Header />
 <main>
-	<Header />
 	<slot />
-	<Splash />
 </main>
+<Splash />
 
 <style>
 	main {
 		position: relative;
-		height: 100vh;
+		height: calc(100vh - var(--headerHeight));
 	}
 </style>
