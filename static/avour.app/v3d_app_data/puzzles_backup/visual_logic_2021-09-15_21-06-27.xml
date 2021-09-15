@@ -216,7 +216,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="false" scrollx="-532.4482002258306" scrolly="-266.4386291503906" scale="0.9070294784580498">
+  <tab name="main" type="MainTab" active="false" scrollx="-532.4482002258308" scrolly="-266.4386291503906" scale="0.9070294784580498">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
       <variable id="AgC)d+i`1hLlIwZp+Bx#" type="">video</variable>
@@ -1733,7 +1733,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="interaction" type="SecondaryTab" active="false" scrollx="-190.7126081223854" scrolly="-47.60581797838688" scale="0.6139132535407589">
+  <tab name="interaction" type="SecondaryTab" active="false" scrollx="-190.7126081223854" scrolly="-47.60581797838705" scale="0.6139132535407589">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
     </variables>
@@ -1966,7 +1966,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="html" type="SecondaryTab" active="true" scrollx="-130.29936877726686" scrolly="47.36401714674321" scale="0.6768393620286867">
+  <tab name="html" type="SecondaryTab" active="true" scrollx="-121.47465301469356" scrolly="174.68928256140742" scale="0.556837418177559">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="/0KbT5OT{?{H70#z9!yY" type="">pickedObj</variable>
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
@@ -1976,7 +1976,7 @@
       <field name="PARENT">TRUE</field>
       <value name="ID">
         <shadow type="text" id="cad%qA[/(+;7qXWF3{Jw">
-          <field name="TEXT">panel_static_goto_details</field>
+          <field name="TEXT">goto_details</field>
         </shadow>
       </value>
       <statement name="DO">

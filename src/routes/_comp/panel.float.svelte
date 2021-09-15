@@ -5,13 +5,13 @@
 
 <style>
 	#panel_float {
-		background-color: rgba(255, 255, 255, 0.7);
+		background-color: var(--color4);
 
 		position: absolute;
 
 		/* bottom: var(--pad); */
-		top: 100px;
-		left: 100px;
+		top: var(--pad);
+		right: var(--pad);
 
 		padding: var(--pad);
 		border-radius: var(--bRadius1);
@@ -19,5 +19,8 @@
 		/* transition: opacity 0.3s ease-in-out; */
 
 		pointer-events: auto;
+	}
+	:global(#panel_float) {
+		display: none;
 	}
 </style>

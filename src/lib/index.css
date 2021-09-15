@@ -3,7 +3,6 @@
 	src: url('the.blacklist.ttf');
 }
 
-
 :root {
 	--pad: 20px;
 	--pad2: 50px;
@@ -15,6 +14,7 @@
 	--color1: black;
 	--color2: white;
 	--color3: #94d915;
+	--color4: rgba(255, 255, 255, 0.7);
 
 	--fcolor1: var(--color1);
 	--fcolor2: var(--color2);
@@ -23,6 +23,10 @@
 	--font1: font1, var(--altFont);
 
 	--animTime1: 200ms;
+
+	--mobileBottom: 80px;
+
+	--ms01: 600px;
 }
 
 * {
@@ -36,24 +40,22 @@
 
 /********************** global **********************/
 .btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 	padding: var(--pad);
 	border-radius: var(--bRadius1);
-	border: 2px solid var(--color2);
+	/* border: 2px solid var(--color2); */
 
 	color: var(--fcolor2);
-	background-color: transparent;
+	background-color: var(--fcolor1);
 
 	cursor: pointer;
+
+	transition: all var(--animTime1) ease-in-out;
 }
 .btn:hover {
-	border-color: transparent;
+	/* border-color: transparent; */
 	background-color: var(--color3);
-}
-
-/********************** v3d **********************/
-#panel_static {
-	display: none;
-}
-#panel_float {
-	display: none;
 }

@@ -3,20 +3,22 @@
 </script>
 
 <header>
-	<div class="logo">
-		<img src="logo.png" alt="Avour" />
-	</div>
-
-	<div id="profile_close" class="fullscreen">
-		<SVG type="profile_close" size="40" />
-	</div>
-
-	<div id="fullscreen">
-		<div id="fullscreen_open" class="fullscreen">
-			<SVG type="fullscreen_open" size="40" />
+	<div class="block">
+		<div class="logo">
+			<img src="logo.png" alt="Avour" />
 		</div>
-		<div id="fullscreen_close" class="fullscreen">
-			<SVG type="fullscreen_close" size="40" />
+
+		<div id="profile_close" class="fullscreen">
+			<SVG type="profile_close" size="40" />
+		</div>
+
+		<div id="fullscreen">
+			<div id="fullscreen_open" class="fullscreen">
+				<SVG type="fullscreen_open" size="40" />
+			</div>
+			<div id="fullscreen_close" class="fullscreen">
+				<SVG type="fullscreen_close" size="40" />
+			</div>
 		</div>
 	</div>
 </header>
@@ -24,12 +26,17 @@
 <style>
 	header {
 		background-color: var(--color1);
-		height: 70px;
-		padding: 0 var(--pad2);
-
+	}
+	.block {
 		display: flex;
 		gap: 20px;
 		align-items: center;
+
+		height: 70px;
+		width: clamp(70vw, var(--ms01), 100%);
+
+		margin: auto;
+		padding: 0 var(--pad2);
 	}
 	.logo {
 		display: flex;

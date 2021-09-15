@@ -5,7 +5,7 @@
 {#if log}
 	<div id="log">Log</div>
 {/if}
-<input bind:value={log} type="checkbox" />
+<input bind:checked={log} type="checkbox" />
 
 <style>
 	#log {
