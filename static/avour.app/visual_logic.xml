@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="370.64778145230315" scrolly="336.2244513282939" scale="0.6139132535407591">
+  <tab name="init" type="InitTab" active="false" scrollx="347.64778145230315" scrolly="473.22445132829387" scale="0.6139132535407591">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="z%2k,qwW-nu(~06{3s]J" x="-450" y="-470">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -216,7 +216,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="false" scrollx="-532.4482002258301" scrolly="-266.4386291503906" scale="0.9070294784580498">
+  <tab name="main" type="MainTab" active="true" scrollx="-532.4482002258301" scrolly="-266.4386291503906" scale="0.9070294784580498">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
       <variable id="AgC)d+i`1hLlIwZp+Bx#" type="">video</variable>
@@ -230,7 +230,7 @@
         </block>
       </value>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="controls_if" id="q$+c@$?JNnrv~p:Dme!^" x="767" y="549">
+    <block xmlns="https://developers.google.com/blockly/xml" type="controls_if" id="q$+c@$?JNnrv~p:Dme!^" disabled="true" x="767" y="549">
       <value name="IF0">
         <block type="featureAvailable" id="movSRIK1tws!]P*zJWXw">
           <field name="FEATURE">MOBILE</field>
@@ -1733,7 +1733,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="interaction" type="SecondaryTab" active="true" scrollx="-212.68480682373047" scrolly="-324.4875259399414" scale="0.9070294784580493">
+  <tab name="interaction" type="SecondaryTab" active="false" scrollx="-45.71260812238506" scrolly="-82.60581797838677" scale="0.6139132535407589">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
     </variables>

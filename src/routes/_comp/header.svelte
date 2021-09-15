@@ -5,7 +5,6 @@
 <header>
 	<div class="logo">
 		<img src="logo.png" alt="Avour" />
-		<div>Avour</div>
 	</div>
 
 	<div id="profile_close" class="fullscreen">
@@ -38,10 +37,6 @@
 		gap: 10px;
 
 		margin-right: auto;
-
-		color: var(--fcolor2);
-		font-size: 2rem;
-		font-family: var(--font1);
 	}
 	img {
 		height: 50px;

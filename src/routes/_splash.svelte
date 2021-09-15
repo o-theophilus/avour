@@ -5,7 +5,6 @@
 <div id="splash_screen" class:active>
 	<div class="logo">
 		<img src="logo.png" alt="Avour" />
-		<div>Avour</div>
 	</div>
 	<br />
 	<div id="loading">
@@ -46,10 +45,6 @@
 		display: flex;
 		align-items: center;
 		gap: 10px;
-
-		color: var(--fcolor2);
-		font-size: 3rem;
-		font-family: var(--font1);
 	}
 	img {
 		height: 80px;
@@ -72,7 +67,6 @@
 		padding: 2px;
 		border: 2px solid var(--color2);
 		border-radius: var(--bRadius1);
-
 
 		transition: all var(--animTime1) ease-in-out;
 	}
