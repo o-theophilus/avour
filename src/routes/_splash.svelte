@@ -30,6 +30,8 @@
 		position: absolute;
 		inset: 0;
 
+		height: 100vh;
+		
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
