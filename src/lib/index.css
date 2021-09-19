@@ -15,7 +15,8 @@
 	--color2: white;
 	--color3: #94d915;
 	--color4: rgba(255, 255, 255, 0.7);
-
+	--color5: rgb(232, 232, 232);
+	
 	--fcolor1: var(--color1);
 	--fcolor2: var(--color2);
 
@@ -26,7 +27,7 @@
 
 	--mobileBottom: 80px;
 
-	--ms01: 600px;
+	--ms01: 800px;
 }
 
 * {

@@ -8,9 +8,7 @@
 			<img src="logo.png" alt="Avour" />
 		</div>
 
-		<div id="profile_close" class="fullscreen">
-			<SVG type="profile_close" size="40" />
-		</div>
+		
 
 		<div id="fullscreen">
 			<div id="fullscreen_open" class="fullscreen">
@@ -33,10 +31,10 @@
 		align-items: center;
 
 		height: 70px;
-		width: clamp(70vw, var(--ms01), 100%);
+		width: min(var(--ms01), 100%);
 
 		margin: auto;
-		padding: 0 var(--pad2);
+		padding: 0 var(--pad);
 	}
 	.logo {
 		display: flex;
