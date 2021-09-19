@@ -1886,10 +1886,9 @@
       </statement>
     </block>
   </tab>
-  <tab name="html" type="SecondaryTab" active="false" scrollx="1.9442901611328125" scrolly="72.00723266601562" scale="1">
+  <tab name="html" type="SecondaryTab" active="false" scrollx="179.7006312227328" scrolly="92.36401714674292" scale="0.6768393620286867">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="/0KbT5OT{?{H70#z9!yY" type="">pickedObj</variable>
-      <variable id="pH-q8~Cx%.%x6114n#)h" type="">pickedObj_name</variable>
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
     </variables>
     <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="s5iB:/2^(P.?CD|(I,Vy" x="270" y="10">
@@ -1914,261 +1913,253 @@
             </block>
           </value>
           <next>
-            <block type="variables_set" id="^-J1rA=3Ueo39R.mI1xY">
-              <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
-              <value name="VALUE">
-                <block type="pickedObject" id="^mFBaOinWU;d(v]04cr#"/>
+            <block type="setObjTransform" id="oj3.:eQ{(3-Z,sYct98v" inline="false">
+              <field name="MODE">position</field>
+              <field name="OFFSET">FALSE</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="2[n,ZmX.0uo5qPSqYr;S">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="variables_get" id="ZTOuRmBLU,[MkrS;+/(@">
+                  <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
+                </block>
+              </value>
+              <value name="X">
+                <block type="getObjTransform" id="emcl!H:Ve(:qF*!wF@^+">
+                  <field name="MODE">position</field>
+                  <field name="COORD">x</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList" id=")O2WjfL8w+0$cT5goL=0">
+                      <field name="FIELDNAME">profile.point</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <value name="Y">
+                <block type="getObjTransform" id="ykUndH94SS.slp8Ey6ia">
+                  <field name="MODE">position</field>
+                  <field name="COORD">y</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList" id="0y.LYSVH2q=[HbH`~R*]">
+                      <field name="FIELDNAME">profile.point</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <value name="Z">
+                <block type="getObjTransform" id="i/P21k$%D:AQBn[u0W6H">
+                  <field name="MODE">position</field>
+                  <field name="COORD">z</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList" id="$9quR$Nmvk=e_QJXT3-Q">
+                      <field name="FIELDNAME">profile.point</field>
+                    </shadow>
+                  </value>
+                </block>
               </value>
               <next>
-                <block type="setObjTransform" id="oj3.:eQ{(3-Z,sYct98v" inline="false">
+                <block type="setObjTransform" id="E]$_Cze,nF{MJb.C?qMO" inline="false">
                   <field name="MODE">position</field>
                   <field name="OFFSET">FALSE</field>
                   <value name="TARGETOBJ">
-                    <shadow type="objectList" id="2[n,ZmX.0uo5qPSqYr;S">
-                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    <shadow type="objectList" id="l?!:k0B}~5-yZCcez+hW">
+                      <field name="FIELDNAME">profile.cam</field>
                     </shadow>
-                    <block type="variables_get" id="ZTOuRmBLU,[MkrS;+/(@">
-                      <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
-                    </block>
                   </value>
                   <value name="X">
-                    <block type="getObjTransform" id="emcl!H:Ve(:qF*!wF@^+">
+                    <block type="getObjTransform" id="z[8HS;dVgdXTZ.|F:l+z">
                       <field name="MODE">position</field>
                       <field name="COORD">x</field>
                       <value name="TARGETOBJ">
-                        <shadow type="objectList" id=")O2WjfL8w+0$cT5goL=0">
+                        <shadow type="objectList" id="?^h.r`LDO{(1ue.mK|tI">
                           <field name="FIELDNAME">profile.point</field>
                         </shadow>
                       </value>
                     </block>
                   </value>
                   <value name="Y">
-                    <block type="getObjTransform" id="ykUndH94SS.slp8Ey6ia">
-                      <field name="MODE">position</field>
-                      <field name="COORD">y</field>
-                      <value name="TARGETOBJ">
-                        <shadow type="objectList" id="0y.LYSVH2q=[HbH`~R*]">
-                          <field name="FIELDNAME">profile.point</field>
+                    <block type="math_arithmetic" id=")_/814;tC]-5(/+mVgN`">
+                      <field name="OP">ADD</field>
+                      <value name="A">
+                        <shadow type="math_number" id="KEPI`PGK__9sCRc%|(}E">
+                          <field name="NUM">2</field>
+                        </shadow>
+                        <block type="getObjTransform" id="f#D2}ahVQ=~/O9$m/Z?B">
+                          <field name="MODE">position</field>
+                          <field name="COORD">y</field>
+                          <value name="TARGETOBJ">
+                            <shadow type="objectList" id="Oj7l#HNCR@pEtsC=m*:G">
+                              <field name="FIELDNAME">profile.point</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <shadow type="math_number" id="51sQ8wkykeW~%yGVnzKG">
+                          <field name="NUM">1</field>
                         </shadow>
                       </value>
                     </block>
                   </value>
                   <value name="Z">
-                    <block type="getObjTransform" id="i/P21k$%D:AQBn[u0W6H">
+                    <block type="getObjTransform" id="]w#8?+TN7i8u?wSDx:ts">
                       <field name="MODE">position</field>
                       <field name="COORD">z</field>
                       <value name="TARGETOBJ">
-                        <shadow type="objectList" id="$9quR$Nmvk=e_QJXT3-Q">
+                        <shadow type="objectList" id="z}V.LJ)T0V#79/QD]CE;">
                           <field name="FIELDNAME">profile.point</field>
                         </shadow>
                       </value>
                     </block>
                   </value>
                   <next>
-                    <block type="setObjTransform" id="E]$_Cze,nF{MJb.C?qMO" inline="false">
-                      <field name="MODE">position</field>
-                      <field name="OFFSET">FALSE</field>
-                      <value name="TARGETOBJ">
-                        <shadow type="objectList" id="l?!:k0B}~5-yZCcez+hW">
-                          <field name="FIELDNAME">profile.cam</field>
+                    <block type="hide" id="5ceB2Bm)nk.10GIC8Mgh">
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
                         </shadow>
-                      </value>
-                      <value name="X">
-                        <block type="getObjTransform" id="z[8HS;dVgdXTZ.|F:l+z">
-                          <field name="MODE">position</field>
-                          <field name="COORD">x</field>
-                          <value name="TARGETOBJ">
-                            <shadow type="objectList" id="?^h.r`LDO{(1ue.mK|tI">
-                              <field name="FIELDNAME">profile.point</field>
-                            </shadow>
-                          </value>
-                        </block>
-                      </value>
-                      <value name="Y">
-                        <block type="math_arithmetic" id=")_/814;tC]-5(/+mVgN`">
-                          <field name="OP">ADD</field>
-                          <value name="A">
-                            <shadow type="math_number" id="KEPI`PGK__9sCRc%|(}E">
-                              <field name="NUM">2</field>
-                            </shadow>
-                            <block type="getObjTransform" id="f#D2}ahVQ=~/O9$m/Z?B">
-                              <field name="MODE">position</field>
-                              <field name="COORD">y</field>
-                              <value name="TARGETOBJ">
-                                <shadow type="objectList" id="Oj7l#HNCR@pEtsC=m*:G">
-                                  <field name="FIELDNAME">profile.point</field>
-                                </shadow>
-                              </value>
-                            </block>
-                          </value>
-                          <value name="B">
-                            <shadow type="math_number" id="51sQ8wkykeW~%yGVnzKG">
-                              <field name="NUM">1</field>
-                            </shadow>
-                          </value>
-                        </block>
-                      </value>
-                      <value name="Z">
-                        <block type="getObjTransform" id="]w#8?+TN7i8u?wSDx:ts">
-                          <field name="MODE">position</field>
-                          <field name="COORD">z</field>
-                          <value name="TARGETOBJ">
-                            <shadow type="objectList" id="z}V.LJ)T0V#79/QD]CE;">
-                              <field name="FIELDNAME">profile.point</field>
-                            </shadow>
-                          </value>
+                        <block type="groupList" id="AJ-[SaDhsu:e*SFiU?xB">
+                          <field name="FIELDNAME">scene.main</field>
                         </block>
                       </value>
                       <next>
-                        <block type="hide" id="5ceB2Bm)nk.10GIC8Mgh">
-                          <value name="VALUE">
-                            <shadow type="objectList">
-                              <field name="FIELDNAME">&lt;none&gt;</field>
+                        <block type="setActiveCamera" id="/{3JV4gh^}O*epO!*Y~#">
+                          <value name="CAMERA">
+                            <shadow type="objectList" id="gheBxtKrHi@Rx9pH7]]2">
+                              <field name="FIELDNAME">profile.cam</field>
                             </shadow>
-                            <block type="groupList" id="AJ-[SaDhsu:e*SFiU?xB">
-                              <field name="FIELDNAME">scene.main</field>
-                            </block>
                           </value>
                           <next>
-                            <block type="setActiveCamera" id="/{3JV4gh^}O*epO!*Y~#">
-                              <value name="CAMERA">
-                                <shadow type="objectList" id="gheBxtKrHi@Rx9pH7]]2">
-                                  <field name="FIELDNAME">profile.cam</field>
+                            <block type="setCSSRuleStyle" id="JAdHEv#bI4sBeM:Z7@Ql">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                              <field name="PROPERTY">display</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="VALUE">
+                                <block type="text" id="|:Pm86Vwcoqd9xz36X++">
+                                  <field name="TEXT">inline-block</field>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <shadow type="text" id="~Sow$i=VQ|cccgc7{mh_">
+                                  <field name="TEXT">#profile_close</field>
                                 </shadow>
                               </value>
                               <next>
-                                <block type="setCSSRuleStyle" id="JAdHEv#bI4sBeM:Z7@Ql">
+                                <block type="setCSSRuleStyle" id="pnY+i6Otht-^[QTRdl$D">
                                   <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
                                   <field name="PROPERTY">display</field>
                                   <field name="PARENT">TRUE</field>
                                   <value name="VALUE">
-                                    <block type="text" id="|:Pm86Vwcoqd9xz36X++">
-                                      <field name="TEXT">inline-block</field>
+                                    <block type="text" id="D^x+j|.X[A)qf.Hi{:HL">
+                                      <field name="TEXT">none</field>
                                     </block>
                                   </value>
                                   <value name="ID">
-                                    <shadow type="text" id="~Sow$i=VQ|cccgc7{mh_">
-                                      <field name="TEXT">#profile_close</field>
+                                    <shadow type="text" id="$0:drilz}Pk[|,mv(B!2">
+                                      <field name="TEXT">#panel_static</field>
                                     </shadow>
                                   </value>
                                   <next>
-                                    <block type="setCSSRuleStyle" id="pnY+i6Otht-^[QTRdl$D">
+                                    <block type="setCSSRuleStyle" id="1l)6q[1SvLQ:,$wj]E_h">
                                       <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
                                       <field name="PROPERTY">display</field>
                                       <field name="PARENT">TRUE</field>
                                       <value name="VALUE">
-                                        <block type="text" id="D^x+j|.X[A)qf.Hi{:HL">
-                                          <field name="TEXT">none</field>
+                                        <block type="text" id="qjN=]ZlxfIH2}IFXj[mO">
+                                          <field name="TEXT">block</field>
                                         </block>
                                       </value>
                                       <value name="ID">
-                                        <shadow type="text" id="$0:drilz}Pk[|,mv(B!2">
-                                          <field name="TEXT">#panel_static</field>
+                                        <shadow type="text" id="p7$Dfo1,I42XZ}9zBpxS">
+                                          <field name="TEXT">#profile</field>
                                         </shadow>
                                       </value>
                                       <next>
-                                        <block type="setCSSRuleStyle" id="1l)6q[1SvLQ:,$wj]E_h">
-                                          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
-                                          <field name="PROPERTY">display</field>
+                                        <block type="setHTMLElemAttribute" id="3*icW(Z(~d6VI[kD^v?T">
+                                          <field name="ATTRIBUTE">innerHTML</field>
                                           <field name="PARENT">TRUE</field>
                                           <value name="VALUE">
-                                            <block type="text" id="qjN=]ZlxfIH2}IFXj[mO">
-                                              <field name="TEXT">block</field>
+                                            <block type="dictGet" id="J3J%0-oC$AVCGo:crQcs">
+                                              <value name="DICT">
+                                                <block type="getObjCustomProps" id="kQxj%6`/l!}4j]o?/:(p">
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="1IrZcDt[-_}.@,ExRob1">
+                                                      <field name="FIELDNAME">box05</field>
+                                                    </shadow>
+                                                    <block type="pickedObject" id="KG(u;38RCQoMUyssK!b+"/>
+                                                  </value>
+                                                </block>
+                                              </value>
+                                              <value name="KEY">
+                                                <shadow type="text" id="9kGC`S1*Ibf0BW;t|2LJ">
+                                                  <field name="TEXT">name</field>
+                                                </shadow>
+                                              </value>
                                             </block>
                                           </value>
                                           <value name="ID">
-                                            <shadow type="text" id="p7$Dfo1,I42XZ}9zBpxS">
-                                              <field name="TEXT">#profile</field>
+                                            <shadow type="text" id="z}eRrCm:PuBP%{*kg]Ve">
+                                              <field name="TEXT">profile_item_name</field>
                                             </shadow>
                                           </value>
                                           <next>
-                                            <block type="setHTMLElemAttribute" id="3*icW(Z(~d6VI[kD^v?T">
+                                            <block type="setHTMLElemAttribute" id="VJF-|tUcy+qZqRB3~TIw">
                                               <field name="ATTRIBUTE">innerHTML</field>
                                               <field name="PARENT">TRUE</field>
                                               <value name="VALUE">
-                                                <block type="dictGet" id="J3J%0-oC$AVCGo:crQcs">
+                                                <block type="dictGet" id="j|;X-`/XM#$CA4r@L0V5">
                                                   <value name="DICT">
-                                                    <block type="getObjCustomProps" id="kQxj%6`/l!}4j]o?/:(p">
+                                                    <block type="getObjCustomProps" id="-M@{_NYqpQZ.RSlV$znR">
                                                       <value name="VALUE">
-                                                        <shadow type="objectList" id="1IrZcDt[-_}.@,ExRob1">
+                                                        <shadow type="objectList" id="B:vR#sZ=uzz@#%fw)#Mn">
                                                           <field name="FIELDNAME">box05</field>
                                                         </shadow>
-                                                        <block type="pickedObject" id="KG(u;38RCQoMUyssK!b+"/>
+                                                        <block type="pickedObject" id="O_/mk!4%6Fy8LjS$^HJO"/>
                                                       </value>
                                                     </block>
                                                   </value>
                                                   <value name="KEY">
-                                                    <shadow type="text" id="9kGC`S1*Ibf0BW;t|2LJ">
-                                                      <field name="TEXT">name</field>
+                                                    <shadow type="text" id="4vD0+{qIHy^mTAC^K$Fq">
+                                                      <field name="TEXT">price</field>
                                                     </shadow>
                                                   </value>
                                                 </block>
                                               </value>
                                               <value name="ID">
-                                                <shadow type="text" id="z}eRrCm:PuBP%{*kg]Ve">
-                                                  <field name="TEXT">profile_item_name</field>
+                                                <shadow type="text" id="65I%L0DQHlmP9L3FfFI9">
+                                                  <field name="TEXT">profile_item_price</field>
                                                 </shadow>
                                               </value>
                                               <next>
-                                                <block type="setHTMLElemAttribute" id="VJF-|tUcy+qZqRB3~TIw">
-                                                  <field name="ATTRIBUTE">innerHTML</field>
+                                                <block type="setCSSRuleStyle" id="x0o%j;f;0]]It@wX3U:$">
+                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                                                  <field name="PROPERTY">height</field>
                                                   <field name="PARENT">TRUE</field>
                                                   <value name="VALUE">
-                                                    <block type="dictGet" id="j|;X-`/XM#$CA4r@L0V5">
-                                                      <value name="DICT">
-                                                        <block type="getObjCustomProps" id="-M@{_NYqpQZ.RSlV$znR">
-                                                          <value name="VALUE">
-                                                            <shadow type="objectList" id="B:vR#sZ=uzz@#%fw)#Mn">
-                                                              <field name="FIELDNAME">box05</field>
-                                                            </shadow>
-                                                            <block type="pickedObject" id="O_/mk!4%6Fy8LjS$^HJO"/>
-                                                          </value>
-                                                        </block>
-                                                      </value>
-                                                      <value name="KEY">
-                                                        <shadow type="text" id="4vD0+{qIHy^mTAC^K$Fq">
-                                                          <field name="TEXT">price</field>
-                                                        </shadow>
-                                                      </value>
+                                                    <block type="text" id="@/o$_Qr[Qo`BTk=;0!Ng">
+                                                      <field name="TEXT">70%</field>
                                                     </block>
                                                   </value>
                                                   <value name="ID">
-                                                    <shadow type="text" id="65I%L0DQHlmP9L3FfFI9">
-                                                      <field name="TEXT">profile_item_price</field>
+                                                    <shadow type="text" id="%EumPf`og`f/75zi[8u@">
+                                                      <field name="TEXT">#scene</field>
                                                     </shadow>
                                                   </value>
                                                   <next>
-                                                    <block type="setCSSRuleStyle" id="x0o%j;f;0]]It@wX3U:$">
+                                                    <block type="setCSSRuleStyle" id="Xk@Ey;U_4RF#0^a/Sm1#">
                                                       <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
-                                                      <field name="PROPERTY">height</field>
+                                                      <field name="PROPERTY">width</field>
                                                       <field name="PARENT">TRUE</field>
                                                       <value name="VALUE">
-                                                        <block type="text" id="@/o$_Qr[Qo`BTk=;0!Ng">
-                                                          <field name="TEXT">70%</field>
+                                                        <block type="text" id="?-L~eJ/kz79OeO.3V?+F">
+                                                          <field name="TEXT">min(100%, 800px)</field>
                                                         </block>
                                                       </value>
                                                       <value name="ID">
-                                                        <shadow type="text" id="%EumPf`og`f/75zi[8u@">
+                                                        <shadow type="text" id="Wsf+`b/e[S*wgV;[*8Ys">
                                                           <field name="TEXT">#scene</field>
                                                         </shadow>
                                                       </value>
-                                                      <next>
-                                                        <block type="setCSSRuleStyle" id="Xk@Ey;U_4RF#0^a/Sm1#">
-                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
-                                                          <field name="PROPERTY">width</field>
-                                                          <field name="PARENT">TRUE</field>
-                                                          <value name="VALUE">
-                                                            <block type="text" id="?-L~eJ/kz79OeO.3V?+F">
-                                                              <field name="TEXT">min(100%, 800px)</field>
-                                                            </block>
-                                                          </value>
-                                                          <value name="ID">
-                                                            <shadow type="text" id="Wsf+`b/e[S*wgV;[*8Ys">
-                                                              <field name="TEXT">#scene</field>
-                                                            </shadow>
-                                                          </value>
-                                                        </block>
-                                                      </next>
                                                     </block>
                                                   </next>
                                                 </block>
@@ -2487,7 +2478,6 @@
       <variable id=")bEh55zH8l^`As-CO@}G" type="">mat_count</variable>
       <variable id="fV/vey1|29p%7J$x,Loo" type="">mat_used</variable>
       <variable id="/0KbT5OT{?{H70#z9!yY" type="">pickedObj</variable>
-      <variable id="pH-q8~Cx%.%x6114n#)h" type="">pickedObj_name</variable>
     </variables>
     <block xmlns="https://developers.google.com/blockly/xml" type="controls_repeat_ext" id="NC[?t+c%DVz^#4F%Uzt)" disabled="true" x="450" y="110">
       <value name="TIMES">
@@ -2547,19 +2537,6 @@
             <shadow type="materialList" id="OeR6/5z.E}r,*stgF6b;">
               <field name="FIELDNAME">sneakers.02</field>
             </shadow>
-            <block type="text_join" id="A|])KFCPn{~OHssh7xlP">
-              <mutation items="2"/>
-              <value name="ADD0">
-                <block type="variables_get" id="#R#mh2*w70$-:NDx|k53">
-                  <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
-                </block>
-              </value>
-              <value name="ADD1">
-                <block type="text" id="dzwk=B=~!C2D)vZ*Ha_)">
-                  <field name="TEXT">.01</field>
-                </block>
-              </value>
-            </block>
           </value>
           <value name="VALUE1">
             <shadow type="objectList" id="+=m^Aepn6gIIIsC|_9AD">
@@ -2571,170 +2548,6 @@
           </value>
         </block>
       </statement>
-      <next>
-        <block type="eventHTMLElem" id="DN6m@grB`S:cM(e?kq`;">
-          <field name="EVENT">click</field>
-          <field name="PARENT">TRUE</field>
-          <value name="ID">
-            <shadow type="text" id=",b_KU/-(9ocL(/[Dzxt:">
-              <field name="TEXT">mat_02</field>
-            </shadow>
-          </value>
-          <statement name="DO">
-            <block type="assignMaterial" id="}cB9CujKi58AZ,?[~YR[">
-              <value name="VALUE2">
-                <shadow type="materialList">
-                  <field name="FIELDNAME">sneakers.02</field>
-                </shadow>
-                <block type="text_join" id="-55]zDh|JR?nQX=GL,pV">
-                  <mutation items="2"/>
-                  <value name="ADD0">
-                    <block type="variables_get" id="of7@@7F-AeOgJ0O@^Ii0">
-                      <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
-                    </block>
-                  </value>
-                  <value name="ADD1">
-                    <block type="text" id="k(h)x1Wt1#9++]zs+Zv^">
-                      <field name="TEXT">.02</field>
-                    </block>
-                  </value>
-                </block>
-              </value>
-              <value name="VALUE1">
-                <shadow type="objectList">
-                  <field name="FIELDNAME">&lt;none&gt;</field>
-                </shadow>
-                <block type="variables_get" id="g4Z#tD*@h][Bi_pHBM_-">
-                  <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
-                </block>
-              </value>
-            </block>
-          </statement>
-          <next>
-            <block type="eventHTMLElem" id="qBPVz15WlDMmHTiW48._">
-              <field name="EVENT">click</field>
-              <field name="PARENT">TRUE</field>
-              <value name="ID">
-                <shadow type="text" id="P2PU59ghe5Z]r8#0dF#;">
-                  <field name="TEXT">mat_03</field>
-                </shadow>
-              </value>
-              <statement name="DO">
-                <block type="assignMaterial" id="9Z:m-(Zk+!dl{j;Aq=(S">
-                  <value name="VALUE2">
-                    <shadow type="materialList">
-                      <field name="FIELDNAME">sneakers.02</field>
-                    </shadow>
-                    <block type="text_join" id="DF.1^`WX)i1drp+@,h$(">
-                      <mutation items="2"/>
-                      <value name="ADD0">
-                        <block type="variables_get" id="h/2RrnYYD^chW7EM~)_J">
-                          <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
-                        </block>
-                      </value>
-                      <value name="ADD1">
-                        <block type="text" id="G4Ux.$r7abz28oWOP5@9">
-                          <field name="TEXT">.03</field>
-                        </block>
-                      </value>
-                    </block>
-                  </value>
-                  <value name="VALUE1">
-                    <shadow type="objectList">
-                      <field name="FIELDNAME">&lt;none&gt;</field>
-                    </shadow>
-                    <block type="variables_get" id="noIb${IT0/J:u%qQQi%1">
-                      <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
-                    </block>
-                  </value>
-                </block>
-              </statement>
-              <next>
-                <block type="eventHTMLElem" id="?aEVhi*5sm*Fksv]DA7F">
-                  <field name="EVENT">click</field>
-                  <field name="PARENT">TRUE</field>
-                  <value name="ID">
-                    <shadow type="text" id="nM+U)FX@7x7_zbKs}IRP">
-                      <field name="TEXT">mat_04</field>
-                    </shadow>
-                  </value>
-                  <statement name="DO">
-                    <block type="assignMaterial" id="p)yAcb3Hf{N0dm[50^VC">
-                      <value name="VALUE2">
-                        <shadow type="materialList">
-                          <field name="FIELDNAME">sneakers.02</field>
-                        </shadow>
-                        <block type="text_join" id="_TPU4SH:}2k%oKads2r2">
-                          <mutation items="2"/>
-                          <value name="ADD0">
-                            <block type="variables_get" id="an%u6aw/^d6hpkOi@Ico">
-                              <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
-                            </block>
-                          </value>
-                          <value name="ADD1">
-                            <block type="text" id="z4H;y2A$UEL:kG_]ux70">
-                              <field name="TEXT">.04</field>
-                            </block>
-                          </value>
-                        </block>
-                      </value>
-                      <value name="VALUE1">
-                        <shadow type="objectList">
-                          <field name="FIELDNAME">&lt;none&gt;</field>
-                        </shadow>
-                        <block type="variables_get" id="C%?;.}HAH|a$~rHshC@U">
-                          <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
-                        </block>
-                      </value>
-                    </block>
-                  </statement>
-                  <next>
-                    <block type="eventHTMLElem" id="*C:Z{!hok=`epE7M~1q:">
-                      <field name="EVENT">click</field>
-                      <field name="PARENT">TRUE</field>
-                      <value name="ID">
-                        <shadow type="text" id="3~9XKuI+ha`~=wk6c;i,">
-                          <field name="TEXT">mat_05</field>
-                        </shadow>
-                      </value>
-                      <statement name="DO">
-                        <block type="assignMaterial" id="F7H=Im.[m@BAw5=A0DQu">
-                          <value name="VALUE2">
-                            <shadow type="materialList">
-                              <field name="FIELDNAME">sneakers.02</field>
-                            </shadow>
-                            <block type="text_join" id="{Y*{Pf%pxjnm|Wu9LrzA">
-                              <mutation items="2"/>
-                              <value name="ADD0">
-                                <block type="variables_get" id="L;r%xAwv2.(n+dgroN~b">
-                                  <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
-                                </block>
-                              </value>
-                              <value name="ADD1">
-                                <block type="text" id="VV1Ax-8T}z$-IZgvyb0-">
-                                  <field name="TEXT">.05</field>
-                                </block>
-                              </value>
-                            </block>
-                          </value>
-                          <value name="VALUE1">
-                            <shadow type="objectList">
-                              <field name="FIELDNAME">&lt;none&gt;</field>
-                            </shadow>
-                            <block type="variables_get" id="07p96Z{9!YA!L|Cats5[">
-                              <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
-                            </block>
-                          </value>
-                        </block>
-                      </statement>
-                    </block>
-                  </next>
-                </block>
-              </next>
-            </block>
-          </next>
-        </block>
-      </next>
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="assignMaterial" id="7bhg_u`J-!/W@e]h1$oO" disabled="true" x="230" y="310">
       <value name="VALUE2">
@@ -2755,6 +2568,9 @@
           <field name="TEXT">Hello, Verge!</field>
         </block>
       </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="text" id="dzwk=B=~!C2D)vZ*Ha_)" x="1150" y="410">
+      <field name="TEXT">Hello, Verge!</field>
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="1Xn-e-6IWvG8GtK6e-wb" disabled="true" x="190" y="490">
       <field name="VAR" id=")bEh55zH8l^`As-CO@}G">mat_count</field>

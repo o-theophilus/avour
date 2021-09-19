@@ -1886,7 +1886,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="html" type="SecondaryTab" active="false" scrollx="1.9442901611328125" scrolly="72.00723266601562" scale="1">
+  <tab name="html" type="SecondaryTab" active="true" scrollx="1.9442901611328125" scrolly="72.00723266601562" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="/0KbT5OT{?{H70#z9!yY" type="">pickedObj</variable>
       <variable id="pH-q8~Cx%.%x6114n#)h" type="">pickedObj_name</variable>
@@ -2481,13 +2481,12 @@
       </statement>
     </block>
   </tab>
-  <tab name="materials" type="SecondaryTab" active="true" scrollx="-378.9999999999999" scrolly="106.00000000000011" scale="0.9">
+  <tab name="materials" type="SecondaryTab" active="false" scrollx="-378.9999999999999" scrolly="106.00000000000011" scale="0.9">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(6Z2]qX{!yd+i~Mz9mPM" type="">i</variable>
       <variable id=")bEh55zH8l^`As-CO@}G" type="">mat_count</variable>
       <variable id="fV/vey1|29p%7J$x,Loo" type="">mat_used</variable>
       <variable id="/0KbT5OT{?{H70#z9!yY" type="">pickedObj</variable>
-      <variable id="pH-q8~Cx%.%x6114n#)h" type="">pickedObj_name</variable>
     </variables>
     <block xmlns="https://developers.google.com/blockly/xml" type="controls_repeat_ext" id="NC[?t+c%DVz^#4F%Uzt)" disabled="true" x="450" y="110">
       <value name="TIMES">
@@ -2551,7 +2550,7 @@
               <mutation items="2"/>
               <value name="ADD0">
                 <block type="variables_get" id="#R#mh2*w70$-:NDx|k53">
-                  <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
+                  <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
                 </block>
               </value>
               <value name="ADD1">
@@ -2590,7 +2589,7 @@
                   <mutation items="2"/>
                   <value name="ADD0">
                     <block type="variables_get" id="of7@@7F-AeOgJ0O@^Ii0">
-                      <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
+                      <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
                     </block>
                   </value>
                   <value name="ADD1">
@@ -2629,7 +2628,7 @@
                       <mutation items="2"/>
                       <value name="ADD0">
                         <block type="variables_get" id="h/2RrnYYD^chW7EM~)_J">
-                          <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
+                          <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
                         </block>
                       </value>
                       <value name="ADD1">
@@ -2668,7 +2667,7 @@
                           <mutation items="2"/>
                           <value name="ADD0">
                             <block type="variables_get" id="an%u6aw/^d6hpkOi@Ico">
-                              <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
+                              <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
                             </block>
                           </value>
                           <value name="ADD1">
@@ -2707,7 +2706,7 @@
                               <mutation items="2"/>
                               <value name="ADD0">
                                 <block type="variables_get" id="L;r%xAwv2.(n+dgroN~b">
-                                  <field name="VAR" id="pH-q8~Cx%.%x6114n#)h">pickedObj_name</field>
+                                  <field name="VAR" id="/0KbT5OT{?{H70#z9!yY">pickedObj</field>
                                 </block>
                               </value>
                               <value name="ADD1">
