@@ -16,15 +16,19 @@
 
 		height: 30%;
 
-		padding: var(--pad2);
-		
+		padding: var(--pad);
+
 		pointer-events: auto;
 
-		/* top: ; */
-
-		/* width: 100%; */
-		/* margin-top: auto; */
 	}
+
+	@media screen and (min-width: 800px) {
+		#profile_item_details {
+			padding: var(--pad2);
+		}
+	}
+
+
 	#profile_item_name {
 		font-size: 2rem;
 	}

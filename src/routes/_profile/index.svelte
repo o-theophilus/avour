@@ -25,8 +25,8 @@
 	:global(#profile) {
 		display: none;
 	}
-	
-	#profile .block {
+
+	.block {
 		position: relative;
 
 		display: flex;
@@ -35,6 +35,13 @@
 		height: 100%;
 		width: min(100%, var(--ms01));
 		margin: auto;
-		padding: var(--pad2);
+
+		padding: var(--pad);
+	}
+
+	@media screen and (min-width: 800px) {
+		.block {
+			padding: var(--pad2);
+		}
 	}
 </style>

@@ -8,8 +8,6 @@
 			<img src="logo.png" alt="Avour" />
 		</div>
 
-		
-
 		<div id="fullscreen">
 			<div id="fullscreen_open" class="fullscreen">
 				<SVG type="fullscreen_open" size="40" />
@@ -61,10 +59,6 @@
 	}
 
 	:global(#fullscreen_close) {
-		display: none;
-	}
-
-	:global(#profile_close) {
 		display: none;
 	}
 </style>

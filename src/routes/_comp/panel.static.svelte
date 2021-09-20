@@ -18,7 +18,7 @@
 
 		position: absolute;
 		bottom: var(--mobileBottom);
-		left: calc(50% - calc(var(--width)/2));
+		left: calc(50% - calc(var(--width) / 2));
 
 		padding: var(--pad);
 		border-radius: var(--bRadius1);

@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
 
-export const percent = writable(0);
+export const mat_count = writable();
+export const num = writable(3);
 
