@@ -2468,7 +2468,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="materials" type="SecondaryTab" active="true" scrollx="-412.14247228151464" scrolly="356.8875569827087" scale="0.6139132535407589">
+  <tab name="materials" type="SecondaryTab" active="true" scrollx="-412.14247228151453" scrolly="356.8875569827087" scale="0.6139132535407589">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(6Z2]qX{!yd+i~Mz9mPM" type="">i</variable>
       <variable id="/0KbT5OT{?{H70#z9!yY" type="">pickedObj</variable>
@@ -2901,7 +2901,7 @@
                                   <field name="PARENT">TRUE</field>
                                   <value name="VALUE">
                                     <block type="text" id="a~5F@:lQW+2gFG/#@rWT">
-                                      <field name="TEXT">unset</field>
+                                      <field name="TEXT">defalt</field>
                                     </block>
                                   </value>
                                   <value name="ID">
@@ -2922,18 +2922,6 @@
                                       </value>
                                     </block>
                                   </value>
-                                  <next>
-                                    <block type="console.log" id="Yy@@Os|:vR5Ns=05Osy1">
-                                      <value name="VALUE">
-                                        <shadow type="text" id="To7C()9sL,6#Cz|2T:Rd">
-                                          <field name="TEXT">Hello, Verge!</field>
-                                        </shadow>
-                                        <block type="variables_get" id="fa/jk{n~VuuSsG3KAM=7">
-                                          <field name="VAR" id="(6Z2]qX{!yd+i~Mz9mPM">i</field>
-                                        </block>
-                                      </value>
-                                    </block>
-                                  </next>
                                 </block>
                               </next>
                             </block>

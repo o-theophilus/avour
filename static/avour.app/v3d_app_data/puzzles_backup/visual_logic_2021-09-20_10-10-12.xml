@@ -2468,7 +2468,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="materials" type="SecondaryTab" active="true" scrollx="-412.14247228151464" scrolly="356.8875569827087" scale="0.6139132535407589">
+  <tab name="materials" type="SecondaryTab" active="true" scrollx="-412.14247228151453" scrolly="356.8875569827087" scale="0.6139132535407589">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(6Z2]qX{!yd+i~Mz9mPM" type="">i</variable>
       <variable id="/0KbT5OT{?{H70#z9!yY" type="">pickedObj</variable>
@@ -2895,43 +2895,63 @@
                                 </block>
                               </value>
                               <next>
-                                <block type="setCSSRuleStyle" id="3g.r~v-BQ3+ywPX~4cGk">
-                                  <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
-                                  <field name="PROPERTY">display</field>
-                                  <field name="PARENT">TRUE</field>
+                                <block type="variables_set" id="KZSAYW@*Lh_T0!Q5`kS{">
+                                  <field name="VAR" id="z*O9dN*u|is+7#_t@XPg">element.id</field>
                                   <value name="VALUE">
-                                    <block type="text" id="a~5F@:lQW+2gFG/#@rWT">
-                                      <field name="TEXT">unset</field>
-                                    </block>
-                                  </value>
-                                  <value name="ID">
-                                    <shadow type="text">
-                                      <field name="TEXT"/>
-                                    </shadow>
-                                    <block type="text_join" id="cbV%.nP8Sl0I*Pm3n/A7">
+                                    <block type="text_join" id="LB|(9Rf}.Scc1+E%0t1k">
                                       <mutation items="2"/>
                                       <value name="ADD0">
-                                        <block type="text" id="x-!zoKAy~Ib{iPbRQ]j^">
-                                          <field name="TEXT">#mat_</field>
+                                        <block type="text" id="WhZ{Mj6c,ajc08$3nz]B">
+                                          <field name="TEXT">mat_</field>
                                         </block>
                                       </value>
                                       <value name="ADD1">
-                                        <block type="variables_get" id="!t=8:LE9*xSy[/s7J#}_">
+                                        <block type="variables_get" id="dYjYD7jSXibT1%Ay@#$M">
                                           <field name="VAR" id="(6Z2]qX{!yd+i~Mz9mPM">i</field>
                                         </block>
                                       </value>
                                     </block>
                                   </value>
                                   <next>
-                                    <block type="console.log" id="Yy@@Os|:vR5Ns=05Osy1">
-                                      <value name="VALUE">
-                                        <shadow type="text" id="To7C()9sL,6#Cz|2T:Rd">
-                                          <field name="TEXT">Hello, Verge!</field>
+                                    <block type="addHTMLElement" id="Dv%KW$Tr]WB85cw9+3B0">
+                                      <field name="ELEMENT">div</field>
+                                      <field name="MODE">TO</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <shadow type="text" id="%~(1@Pai05Ws`|$SBZdG">
+                                          <field name="TEXT">yess</field>
                                         </shadow>
-                                        <block type="variables_get" id="fa/jk{n~VuuSsG3KAM=7">
-                                          <field name="VAR" id="(6Z2]qX{!yd+i~Mz9mPM">i</field>
+                                        <block type="variables_get" id="`^+]-e}YkjF)u[7/s!O)">
+                                          <field name="VAR" id="z*O9dN*u|is+7#_t@XPg">element.id</field>
                                         </block>
                                       </value>
+                                      <value name="TARGET_ID">
+                                        <shadow type="DOMObjectSelector" id="xBSc$ILlx4P%W0.x#DCe">
+                                          <field name="DOM_OBJECT">CONTAINER</field>
+                                        </shadow>
+                                        <block type="text" id="^4Y:V|6K=:Vm,loqZi61">
+                                          <field name="TEXT">mat_block</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="setHTMLElemAttribute" id="YsA|7)c,@W:rqj8((yd3">
+                                          <field name="ATTRIBUTE">className</field>
+                                          <field name="PARENT">TRUE</field>
+                                          <value name="VALUE">
+                                            <block type="text" id="Cl)xAYR*C:Ly9er8$y_Q">
+                                              <field name="TEXT">mat</field>
+                                            </block>
+                                          </value>
+                                          <value name="ID">
+                                            <shadow type="text" id=")y}d@d4=s}/.fn|%}YXK">
+                                              <field name="TEXT">yess</field>
+                                            </shadow>
+                                            <block type="variables_get" id="nQenzh%PW*Xr=%/YrA$Q">
+                                              <field name="VAR" id="z*O9dN*u|is+7#_t@XPg">element.id</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </next>
                                     </block>
                                   </next>
                                 </block>
