@@ -216,7 +216,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="-642.2018127441411" scrolly="-518.611694335938" scale="1">
+  <tab name="main" type="MainTab" active="true" scrollx="-488.72318418334066" scrolly="-266.43862915039074" scale="0.9070294784580498">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
       <variable id="AgC)d+i`1hLlIwZp+Bx#" type="">video</variable>
@@ -315,7 +315,7 @@
                           </value>
                           <value name="VOLUME">
                             <shadow type="math_number" id="XHjrhBSv;FQ!vObRvpJ?">
-                              <field name="NUM">1</field>
+                              <field name="NUM">0</field>
                             </shadow>
                           </value>
                           <next>
@@ -1660,7 +1660,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="interaction" type="SecondaryTab" active="false" scrollx="-81.39975893003702" scrolly="-148.1539883025534" scale="0.7462153966366275">
+  <tab name="interaction" type="SecondaryTab" active="false" scrollx="-81.39975893003702" scrolly="-148.15398830255344" scale="0.7462153966366275">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
     </variables>
