@@ -1,7 +1,7 @@
 <div id="profile_item_details">
 	<div id="profile_item_name">Item Name</div>
-	<div id="profile_item_price">Item Price</div>
-	<div id="profile_item_desc">
+	<div class="item">$ <span id="profile_item_price">Item Price </span></div>
+	<div id="profile_item_desc" class="item">
 		Item Description
 		<br /> Product description goes here
 	</div>
@@ -19,7 +19,6 @@
 		padding: var(--pad);
 
 		pointer-events: auto;
-
 	}
 
 	@media screen and (min-width: 800px) {
@@ -28,11 +27,7 @@
 		}
 	}
 
-
-	#profile_item_name {
-		font-size: 2rem;
-	}
-	#profile_item_price {
+	.item {
 		font-size: 2rem;
 	}
 </style>
