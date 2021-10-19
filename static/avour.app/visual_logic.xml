@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="347.647781452303" scrolly="473.2244513282938" scale="0.6139132535407591">
+  <tab name="init" type="InitTab" active="false" scrollx="347.647781452303" scrolly="473.22445132829375" scale="0.6139132535407591">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="z%2k,qwW-nu(~06{3s]J" x="-450" y="-470">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -246,7 +246,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="checkPerformance" id="oO@0XZ-vBTPW{GRTY{r#" x="1150" y="530">
+    <block xmlns="https://developers.google.com/blockly/xml" type="checkPerformance" id="oO@0XZ-vBTPW{GRTY{r#" disabled="true" x="1150" y="530">
       <statement name="DO_LOW">
         <block type="setScreenScale" id="uXmxljT#RkAwG.=A_UR)">
           <value name="FACTOR">
@@ -1671,7 +1671,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="interaction" type="SecondaryTab" active="false" scrollx="-92.39975893003714" scrolly="203.84601169744633" scale="0.7462153966366275">
+  <tab name="interaction" type="SecondaryTab" active="false" scrollx="-92.39975893003714" scrolly="203.84601169744627" scale="0.7462153966366275">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZwxOOO4ukFp5cjDn~7H1" type="">maxIntDist</variable>
     </variables>
